@@ -1,0 +1,43 @@
+# Ignore Python virtual environments
+venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+logs/
+*.log
+*.out
+*.tmp
+
+# Ignore node_modules (for JS projects)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build files
+dist/
+build/
+
+# Ignore environment variables and secrets
+.env
+.env.local
+config.json
+secrets.json
